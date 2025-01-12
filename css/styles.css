@@ -166,6 +166,7 @@ nav {
     border-radius: 16px;
     border: 1px solid rgba(14, 14, 14, 0.15);
     padding: 28px 24px 48px 24px;
+    margin-bottom: 80px;
 }
 
 .quote p {
@@ -194,4 +195,81 @@ nav {
     font-weight: 400;
     line-height: 24px;
     color: rgba(14, 14, 14, 0.60);
+}
+
+.recent-news h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 24px;
+    color: #0E0E0E;
+}
+
+.sub-title {
+    color: rgba(14, 14, 14, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+
+.news-block {
+    background: #fff;
+    display: flex;
+    gap: 32px;
+    border-radius: 24px;
+    padding: 48px;
+    margin-bottom: 24px;
+}
+
+.news-block:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.news-img img {
+    border-radius: 24px;
+}
+
+.news-detail {
+    max-width: 744px;
+}
+
+.news-detail h3 {
+    font-family: "Fira Sans";
+    font-size: 32px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 0.80);
+    margin-bottom: 12px;
+}
+
+.news-detail span {
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.70);
+    padding: 12px 0;
+}
+
+.news-detail p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.70);
+    margin-bottom: 32px;
+}
+
+.news-detail a {
+    display: table;
+    background: #006A50;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: 1s;
+    padding: 13px 26px;
+}
+
+.news-detail a:hover {
+    opacity: 0.6;
 }
