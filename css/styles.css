@@ -1,5 +1,6 @@
 body {
     background: #F5F5F5;
+    font-family: "Fira Sans", serif;
     font-size: 16px;
 }
 
@@ -35,6 +36,7 @@ nav {
     display: flex;
     border-radius: 16px;
     padding: 80px 40px;
+    margin-bottom: 80px;
 }
 
 .banner-txt {
@@ -73,4 +75,123 @@ nav {
 
 .banner-img {
     max-width: 474px;
+}
+
+.vision {
+    margin-bottom: 32px;
+}
+
+.vision h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #0E0E0E;
+    margin-bottom: 24px;
+}
+
+.vision p {
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.70);
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+
+.vision ul {
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
+
+.vision ul li {
+    width: 33%;
+    background: rgba(84, 144, 245, 0.20);
+    border-radius: 16px;
+    padding: 32px;
+}
+
+.vision ul li span {
+    display: block;
+    margin-bottom: 24px;
+}
+
+.vision ul li h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 0.80);
+    margin-bottom: 12px;
+}
+
+.vision ul li p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.70);
+    margin-bottom: 24px;
+    height: 72px;
+}
+
+.vision ul li a {
+    display: table;
+    background: #5490F5;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: 1s;
+    padding: 11px 20px;
+}
+
+.vision ul li a:hover {
+    opacity: 0.6;
+}
+
+.vision ul li:nth-child(2) {
+    background: #C6E4D6;
+}
+
+.vision ul li:nth-child(3) {
+    background: #F7EBCF;
+}
+
+.vision ul li:nth-child(2) a {
+    background: #09A15C;
+}
+
+.vision ul li:nth-child(3) a {
+    background: #FFC239;
+}
+
+.quote {
+    background: #fff;
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 28px 24px 48px 24px;
+}
+
+.quote p {
+    background: url(../images/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    color: rgba(14, 14, 14, 0.80);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 20px 0 0 0;
+    margin-bottom: 12px;
+}
+
+.quote b {
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.80);
+}
+
+.quote span {
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.60);
 }
